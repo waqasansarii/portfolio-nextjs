@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div className="w-full h-fit bg-black py-[6rem] ">
-      <h1 className="text-teal-700 text-7xl text-center font-bold">
+    <div className="w-full h-fit bg-black py-[6rem] px-2 sm:px-0">
+      <h1 className="text-teal-700 text-4xl sm:text-7xl text-center font-bold">
         My Proects
       </h1>
       {/* project div  */}

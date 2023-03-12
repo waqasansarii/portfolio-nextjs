@@ -12,7 +12,7 @@ import { SiSolidity ,SiRedux} from 'react-icons/si'
 const Skills = () => {
   return (
     <div className="w-full h-fit bg-black">
-      <h1 className="text-teal-700 text-7xl text-center font-bold">
+      <h1 className="text-teal-700 text-4xl sm:text-7xl text-center font-bold">
         My Skills
       </h1>
       <div className="flex max-w-4xl mx-auto py-[5rem] justify-center gap-8 flex-wrap">
@@ -22,7 +22,7 @@ const Skills = () => {
           <IoLogoHtml5 className="text-4xl text-white" />
           <p className="text-teal-700 mt-2 font-bold">HTML</p>
           <h2 className="text-5xl font-bold text-white mt-2">100%</h2>
-          <div className="absolute w-[200px] h-full rounded-full border-x-[10px]  border-teal-700"></div>
+          <div className="absolute w-[100%] h-full rounded-full border-x-[10px]  border-teal-700"></div>
         </div>
         <div className="skills">
           <IoLogoCss3 className="text-4xl text-white" />
